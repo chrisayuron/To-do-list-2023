@@ -12,7 +12,7 @@ html,body{
 }
 
 body{
-    background-image: url(./2149912577_preview_cropped-3840-2160-783462.png);
+    background-image: url(./AbstractPaper.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -93,6 +93,9 @@ input[type=text]::placeholder{
 input[type=text]:focus{
     border: none;
     outline:none;
+    color: peru;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 
@@ -143,12 +146,14 @@ input[type=text]:focus{
 }
 
 #limpiar{
-    border: none;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: 700;
+    background:    #15d798;
+    border-radius: 11px;
+    padding:       10px;
+    color:         #ffffff;
+    display:       block;
+    margin: 0 auto;
+    text-align:    center;
     text-transform: uppercase;
-    cursor: pointer;
 }
 
 #limpiar:hover{
