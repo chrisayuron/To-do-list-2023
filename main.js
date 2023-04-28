@@ -32,9 +32,9 @@
     textoTarea.setAttribute('id','textoTarea')
     tareaBloque.setAttribute('class','tarea-text')
     const btnEliminar=document.createElement('img')
-    btnEliminar.src='./trashcan.svg'
+    btnEliminar.src='./img/trashcan.svg'
     const btnEditar=document.createElement('img')
-    btnEditar.src='./pencil.svg'
+    btnEditar.src='./img/pencil.svg'
     const botones=document.createElement('div')
     botones.setAttribute('class','botones')
     btnEliminar.setAttribute('id','eliminar')
